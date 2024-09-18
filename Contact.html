@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - Menu Nourriture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu-boisson.html">Menu Boisson</a></li>
+                <li><a href="menu-nourriture.html">Menu Nourriture</a></li>
+                <li><a href="menu-dessert.html">Menu Dessert</a></li>
+                <li><a href="livraison.html">Livraison</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+      <!-- Section Contact -->
+      <section class="contact-page">
+        <!-- Informations de contact -->
+        <div class="contact-info">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes ici pour répondre à toutes vos questions. N'hésitez pas à nous contacter via l'un des moyens ci-dessous :</p>
+            
+            <h2>Téléphone</h2>
+            <p>Appelez-nous au : <a href="tel:+1234567890">+123 456 7890</a></p>
+            
+            <h2>Email</h2>
+            <p>Envoyez-nous un email à : <a href="mailto:contact@restaurant.com">contact@restaurant.com</a></p>
+            
+            <h2>Adresse</h2>
+            <p>123 Rue de la Cuisine, 75000 Paris, France</p>
+            
+            <h2>Horaires d'ouverture</h2>
+            <p>Lundi - Vendredi : 9h00 - 18h00</p>
+            <p>Samedi - Dimanche : 10h00 - 16h00</p>
+        </div>
+
+        <!-- Formulaire de contact -->
+        <div class="contact-form">
+            <h2>Envoyez-nous un message</h2>
+            <form action="/envoyer-message" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Restaurant. Tous droits réservés.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu-nourriture.html">Menu nourriture</a></li>
+                
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+ 
+   
